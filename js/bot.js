@@ -6764,7 +6764,7 @@ function defaultZGlist() {
 }
 
 function defaultBWLlist() {
-    BWLProtWarlist = ["Ragehoof "]
+    BWLProtWarlist = ["Ragehoof ", "Beefyclyro "]
     BWLBalanceDruidlist = ["Butterskotch "]
     BWLHPriestlist = ["Ophidium "]
     BWLRestoShamanlist = [""]
@@ -6779,26 +6779,11 @@ function defaultBWLlist() {
     BWLSPriestlist = [""]
     BWLEleShamanlist = [""]
     BWLEnhShamanlist = [""]
-/*     BWLProtWarlist = ["Tylvid", "Ragehoof", "Harrak"]
-    BWLBalanceDruidlist = ["Butterskotch"]
-    BWLHPriestlist = ["Exigus", "Fetimus", "Ophidium", "Urmel"]
-    BWLRestoShamanlist = [Rophe", "Durek", "Morjan"]
-    BWLDPSWarlist = ["Happyneal", "Elfenjagd", "Ahnaar", "Deadlyfang", "Psolokrator", "Jakko", "Ichirga", "Kelthal", "Gromagrim"]
-    BWLRoguelist = ["Enthrallis", "Enthrallis", "Razeria", "Umtiti"]
-    BWLWarlocklist = ["Ggjustice", "Badazz", "Runningbeer"]
-    BWLHunterlist = ["Seamara", "Lionard", "Eskanor", "Flyingrat"]
-    BWLMagelist = ["Ravonix", "Iceolated", "Biemless", "Soulrider"]
-    BWLBearlist = ["Woof"]
-    BWLRestoDruidlist = ["Sneezecheese", "Brainboi"]
-    BWLFeralDruidlist = ["Chandelly"]
-    BWLSPriestlist = ["Possumo"]
-    BWLEleShamanlist = ["Exid"]
-    BWLEnhShamanlist = ["Mushin"] */
 }
 
 
 function defaultAQFlist() {
-    AQFProtWarlist = ["Ragehoof ", "Harrak "]
+    AQFProtWarlist = ["Ragehoof ", "Harrak ", "Beefyclyro "]
     AQFBalanceDruidlist = [""]
     AQFHPriestlist = ["Ophidium "]
     AQFRestoShamanlist = [""]
