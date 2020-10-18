@@ -6267,7 +6267,7 @@ async function getGiveaways(){
 }
 
 function openMC() {
-    if MCraidsign {
+    if (MCraidsign) {
         return;
     }
     MCraidsign = true;
@@ -6287,7 +6287,7 @@ function openMC() {
 }
 
 function openZG() {
-    if ZGraidsign {
+    if (ZGraidsign) {
         return;
     }
     ZGraidsign = true;
@@ -6295,7 +6295,7 @@ function openZG() {
 }
 
 function openBWL() {
-    if BWLraidsign {
+    if (BWLraidsign) {
         return;
     }
     BWLraidsign = true;
@@ -6303,7 +6303,7 @@ function openBWL() {
 }
 
 function openAQF() {
-    if AQFraidsign {
+    if (AQFraidsign) {
         return;
     }
     AQFraidsign = true;
@@ -6332,6 +6332,9 @@ function closeAQF() {
 }
 
 function openAQT() {
+    if (AQTraidsign) {
+        return
+    }
     AQTraidsign = true;
     bot.channels.cache.find(output => output.name == "raid-signup").send("@everyone Raid signups for Temple of Ahn'Qiraj (20) are now open!")
 }
