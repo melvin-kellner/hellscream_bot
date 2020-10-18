@@ -6267,6 +6267,9 @@ async function getGiveaways(){
 }
 
 function openMC() {
+    if MCraidsign {
+        return;
+    }
     MCraidsign = true;
     bot.channels.cache.find(output => output.name == "raid-signup").send("@everyone Raid signups for Molten Core are now open!")
     var todaytime = new Date()
@@ -6284,16 +6287,25 @@ function openMC() {
 }
 
 function openZG() {
+    if ZGraidsign {
+        return;
+    }
     ZGraidsign = true;
     bot.channels.cache.find(output => output.name == "raid-signup").send("@everyone Raid signups for ZG are now open!")
 }
 
 function openBWL() {
+    if BWLraidsign {
+        return;
+    }
     BWLraidsign = true;
     bot.channels.cache.find(output => output.name == "raid-signup").send("@everyone Raid signups for Blackwing Lair are now open!")
 }
 
 function openAQF() {
+    if AQFraidsign {
+        return;
+    }
     AQFraidsign = true;
     bot.channels.cache.find(output => output.name == "raid-signup").send("@everyone Raid signups for Temple of Ahn'Qiraj (40) are now open!")
 }
